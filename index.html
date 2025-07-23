@@ -3,7 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Responsive | flowers</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="max-w-6xl mx-auto">
+      <div class="mt-7 flex justify-between items-center p-4 md:p-0">
+        <div>
+          <img
+            class="w-[63px] h-[38px] md:w-full md:h-[82px]"
+            src="./images/logo.png"
+            alt="logo-image"
+          />
+        </div>
+        <div class="flex gap-10 text-base font-normal items-center">
+          <ul class="md:flex gap-10 hidden">
+            <li class="text-[#252432] font-bold">Home</li>
+            <li class="text-[#8987A1]">Shop</li>
+            <li class="text-[#8987A1]">About us</li>
+          </ul>
+          <div>
+            <p class="text-[#000000] text-base font-normal">
+              <i class="fa-solid fa-cart-shopping"></i>Cart ($56)
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
