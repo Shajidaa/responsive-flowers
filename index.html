@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive | flowers</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -13,10 +18,21 @@
       referrerpolicy="no-referrer"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .poppins {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+
+      .roboto {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+      }
+    </style>
   </head>
   <body>
     <!-- --------header------------ -->
-    <header class="max-w-6xl mx-auto">
+    <header class="max-w-6xl mx-auto poppins">
       <!-- navbar -->
       <nav>
         <div class="mt-7 flex justify-between items-center p-4 md:p-0">
@@ -67,7 +83,7 @@
     <!-- --------------main-section--------- -->
     <main>
       <!-- our-plants-section -->
-      <section class="max-w-6xl mx-auto">
+      <section class="max-w-6xl mx-auto roboto">
         <div class="text-center md:mt-25 mt-10">
           <h1 class="text-2xl md:text-5xl/normal font-bold text-[#E95A08]">
             Our <span class="text-black"> plants</span>
@@ -202,7 +218,7 @@
       </section>
       <!-- section-Flower & Plants Lover -->
       <section
-        class="relative max-w-6xl mx-auto mt-20 md:mt-50 flex flex-col md:flex-row justify-between items-center gap-10"
+        class="poppins relative max-w-6xl mx-auto mt-20 md:mt-50 flex flex-col md:flex-row justify-between items-center gap-10"
       >
         <div
           class="md:absolute -top-30 left-95 size-63 drop-shadow-[-4px_10px_rgba(0,0,0,0.25)] md:block hidden"
@@ -247,7 +263,7 @@
       </section>
       <!-- Latest  Deals -->
 
-      <section class="max-w-6xl mx-auto mt-25">
+      <section class="max-w-6xl mx-auto mt-25 roboto">
         <div class="text-center">
           <h1
             class="mb-4 md:text-5xl/normal text-2xl/normal font-bold text-black"
@@ -320,7 +336,7 @@
       </section>
       <!-- Join the colorful Bunch -->
       <section
-        class="flex flex-col justify-center items-center bg-cover bg-no-repeat md:h-[533px] h-[275px] object-cover md:mb-3 relative"
+        class="roboto flex flex-col justify-center items-center bg-cover bg-no-repeat md:h-[533px] h-[275px] object-cover md:mb-3 relative"
         style="background-image: url(./images/news-letter-bg.png)"
       >
         <div
@@ -351,7 +367,7 @@
 
       <!-- footer-section -->
       <section
-        class="max-w-6xl mx-auto mt-12 mb-12 md:p-0 p-2 flex flex-col flex-1 justify-between md:flex-row"
+        class="poppins max-w-6xl mx-auto mt-12 mb-12 md:p-0 p-2 flex flex-col flex-1 justify-between md:flex-row"
       >
         <div class="md:w-[30%]">
           <img src="./images/logo.png" alt="" />
